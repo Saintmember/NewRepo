@@ -581,8 +581,5 @@ char Func(int x, int y)
 		return '<';
 	}
 	else	
-	{
-		return '=';
-	}
-}
+	{return '=';}}
 
