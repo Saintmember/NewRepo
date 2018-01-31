@@ -571,15 +571,10 @@ cout<<x<< Func(x,y)<<y<<endl;
 //void Sq(int a)
 //{cout <<" вадрат числа "<<a<<"="<< a*a<<endl;}
 char Func(int x, int y)
-{
-	if (x > y)
-	{
-		return '>';
-	}
+{if (x > y)
+	{return '>';}
 	if (x < y)
-	{
-		return '<';
-	}
+	{return '<';}
 	else	
 	{return '=';}}
 
